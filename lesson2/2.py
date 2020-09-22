@@ -1,4 +1,4 @@
-
+#Сравнение строк
 def string(s1, s2):
 
     if type(s1) is not str or type(s2) is not str:
@@ -13,11 +13,11 @@ def string(s1, s2):
     else:
         raise ValueError('Какая то хня')
 
-print(string(1, "1"))
+print(string(1, '1'))
 print(string(1, True))
-print(string(False, "1"))
-print(string("True", "1"))
+print(string(False, '1'))
+print(string('True', '1'))
 print(string(1, 1))
-print(string("Hello", "Hi"))
-print(string("Hello", "hello"))
-print(string("Hi", "Hello"))
+print(string('Hello', 'Hi'))
+print(string('Hello', 'hello'))
+print(string('Hi', 'Hello'))
